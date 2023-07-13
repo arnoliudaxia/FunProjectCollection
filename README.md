@@ -15,3 +15,12 @@
 │   ├── ArduinoProjects
 ```
 在这个仓库中我收集了平日里做的一些嵌入式工程，大多是为了便利生活创作的。
+
+## pythonScripts--python独立脚本
+```
+├── FunProjectCollection
+│   ├── pythonScripts
+│   │   ├── 文件处理py脚本 # 处理文件用的
+
+```
+记录一些可以复用的有趣的py脚本
