@@ -1,0 +1,3 @@
+[submodule "ArduinoProjects"]
+	path = ArduinoProjects
+	url = https://github.com/arnoliudaxia/ArduinoProjects.git
