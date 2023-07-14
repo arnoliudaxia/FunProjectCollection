@@ -8,7 +8,9 @@ echo 正在复制文件夹...
 robocopy %folder1% "%folder2%\%foldername%" /MIR
 @echo 请检查复制文件夹是否出现了问题，如果没有问题按回车进入下一步
 pause
+echo 删除源文件夹... 
 rmdir /s /q %folder1%
-
+echo 建立链接...
 mklink /J %folder1% "%folder2%\%foldername%" 
+echo 完成啦！！
 pause
