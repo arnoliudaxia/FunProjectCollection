@@ -1,5 +1,6 @@
 # FunProjectCollection
 收录一些过去我做的有趣的项目，不限语言和平台
+[![Security Status](https://www.murphysec.com/platform3/v31/badge/1679877270432464896.svg)](https://www.murphysec.com/console/report/1612331719198289920/1679877270432464896)
 
 ## TecentChallenge--2020腾讯安全极客挑战赛（名字忘了）
 
