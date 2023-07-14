@@ -29,6 +29,9 @@
 ```
 ├── FunProjectCollection
 │   ├── cmd
-
+│   │   ├── 迁移文件夹.bat # 方便跨磁盘迁移文件夹，提供user-friendly交互
 ```
-记录一些好用的适合windows平台的bat脚本
+记录一些好用的适合windows平台的bat脚本，可以下载bat使用，复制代码到终端使用，也可以使用curl命令
+```
+curl https://raw.githubusercontent.com/arnoliudaxia/FunProjectCollection/main/cmd/????.bat > temp.cmd & temp.cmd & del temp.cmd
+```
