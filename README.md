@@ -24,3 +24,11 @@
 
 ```
 记录一些可以复用的有趣的py脚本
+
+## cmd--bat脚本
+```
+├── FunProjectCollection
+│   ├── cmd
+
+```
+记录一些好用的适合windows平台的bat脚本
