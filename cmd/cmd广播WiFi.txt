@@ -1,0 +1,9 @@
+用cmd开wifi的快速方式是：
+1、按win+r，输入cmd，点击确定；
+2、在提示符后输入：netsh wlan set hostednetwork mode=allow ，回车；
+3、提示符后输入：netsh wlan set hostednetwork ssid=android key=12345678 （ssid是wifi的名称，key是密码，这里的密码至少要8位以上），回车；
+4、提示符后输入：netsh wlan start hostednetwork,回车；
+5、输入exit，退出；
+
+6、按win+r，输入ncpa.cpl，点击确定，右键本地连接，选择属性；
+7、点击共享选项卡，勾选允许其他网络用户通过此计算机的internet连接来连接，家庭网络连接选择无线网络连接，点击确定即可。
