@@ -17,17 +17,18 @@ echo 删除源文件夹...
 rmdir /s /q "%folder1%"
 if errorlevel 1 (
     echo 删除源文件夹失败，请检查文件夹是否存在或是否被占用。
+    set /p retry="是否要重试删除源文件夹并建立连接？(y/n): "
+    if /i "%retry%"=="y" (
+        goto delete_folder
+    ) else (
+        echo 操作结束。
+        pause
+        exit /b
+    )
 ) else (
     echo 建立链接...
     mklink /J "%folder1%" "%folder2%\%foldername%" 
     echo 完成啦！！
-)
-
-:retry
-set /p retry="是否要重试删除源文件夹并建立连接？(y/n): "
-if /i "%retry%"=="y" (
-    goto delete_folder
-) else (
-    echo 操作结束。
     pause
+    exit /b
 )
