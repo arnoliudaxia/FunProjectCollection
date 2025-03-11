@@ -1,6 +1,7 @@
 REM curl https://raw.githubusercontent.com/arnoliudaxia/FunProjectCollection/main/cmd/%E8%BF%81%E7%A7%BB%E6%96%87%E4%BB%B6%E5%A4%B9.bat > temp.cmd & temp.cmd & del temp.cmd
 
 @echo off
+echo 迁移文件夹 v2.1
 set /p folder1="请输入要迁移的文件夹路径："
 set /p folder2="请输入要迁移到的文件夹路径："
 
